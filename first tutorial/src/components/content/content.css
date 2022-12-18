@@ -1,0 +1,50 @@
+.content {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.content-section {
+
+    height: 200px;
+    text-align: center;
+}
+
+
+
+.content-para {
+   
+    font-size: 31px;
+    text-decoration: underline;
+    color: rgb(211, 38, 38);
+    padding: 41px 77px 10px 10px ;
+
+}
+
+
+.card-container {
+   
+    width: 100%;
+    height: 500px;
+    background:whitesmoke;
+    margin-top: 160px;
+    position: relative;
+ 
+}
+
+.card {
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgb(240, 223, 223);
+    height: 100px;
+    width: 17%;
+    margin: 40px 2% 0px  1%;
+    height: 400px;
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.726);
+  }
+  

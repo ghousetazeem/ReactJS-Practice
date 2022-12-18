@@ -1,0 +1,48 @@
+.banner-img img {
+ 
+   
+        width: 100%;
+   
+  
+        top: 50%;
+        width: 100%;
+        height: 50%;
+    
+}
+
+.bg-text {
+  
+   
+    background-position: center;
+    background-size: cover;
+  
+    top: 45%;
+    left: 50%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    position: absolute;
+    border: 2px solid #b1aeae;
+   
+    
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    height: 115px;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+.small-letter {
+   color: rgb(216, 71, 71);
+   top: 12px;
+}
+
+.big-letter {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  
+ }
+
+ .last-letter {
+     color: white;
+ }

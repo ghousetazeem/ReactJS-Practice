@@ -1,0 +1,39 @@
+
+
+
+
+ ul {
+    list-style-type: none;
+    height: 43px;
+    
+    padding-left: 70%;
+    overflow: hidden;
+    background: #333;
+
+}
+
+.NavLink {
+  
+   float: left;
+}
+
+.NavLink a{
+    
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+
+a:hover:not(.active) {
+    background: #111;
+}
+
+.active {
+    background-color: grey;
+}
